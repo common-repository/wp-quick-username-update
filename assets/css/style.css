@@ -1,0 +1,39 @@
+#wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-left {
+  width: 30%;
+}
+#wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-center {
+  width: 5%;
+}
+#wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-center .user-display-name-lable {
+  margin-bottom: 10px;
+}
+#wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-right {
+  width: 65%;
+}
+#wpbody-content table.users tr.inline-edit-row-user p.inline-edit-save span.error {
+  font-style: italic;
+  color: #F75555;
+}
+
+
+#wpbody-content table.users tr .inline-edit-row fieldset label
+{
+	height:50px;
+}
+@media screen and (max-width: 782px) {
+  /* Quick Edit and Bulk Edit */
+  #wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-left,
+  #wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-center,
+  #wpbody-content table.users tr.inline-edit-row-user .inline-edit-col-right {
+    float: none;
+    width: 100%;
+  }
+  #wpbody-content table.users tr .inline-edit-row fieldset label
+	{
+		height:50px;
+	}
+  
+  
+  
+  
+}
